@@ -1,0 +1,104 @@
+.name{
+    display: block;
+    margin: 8px 0px;
+}
+
+.two-btn .text-para{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.two-btn input{
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.two-btn .btn-1{
+    background-color: rgb(19, 184, 19);
+}
+.two-btn .btn-2{
+    background-color: rgb(207, 6, 6);
+}
+
+.g_logo{
+    display: block;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    height: 150px;
+}
+.search-box{
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-left: 10px;
+    margin-left: 170px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 2px 2px 10px #0000005d;
+}
+.search-box:focus{
+    outline: none;
+}
+
+.sign-up-form .text{
+    width: 260px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px rgb(207, 205, 205) solid;
+    padding-left: 10px;
+    display: block;
+}
+.sign-up-form .name{
+    display: inline;
+    width: 120px;
+}
+.sign-up-form .btn-signup{
+    width: 275px;
+    height: 40px;
+    margin-top: 8px;
+    background-color: rgba(69, 113, 247, 0.959);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.sign-up-form legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+
+.uber-login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+.uber-login legend{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.uber-login .text-uber{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 350px;
+    padding-left: 8px;
+    border: none;
+    background-color: rgba(196, 193, 193, 0.144);
+}
+.uber-login .btn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 16px;
+    margin-right: 10px;
+}
+.uber-login .btn-black{
+    background-color: #0f0f0f;
+    color: white;
+}

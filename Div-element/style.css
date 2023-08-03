@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+
+.google-home .logo{
+    width: 200px;
+    margin-top: 10%;
+}
+.logo-div, .search-div, .btn-div{
+    text-align: center;
+    
+} 
+.search-box{
+    width: 700px;
+    height: 35px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #80808052;
+}
+.btn{
+    margin-top: 25px;
+    border: none;
+    padding: 10px 10px;
+    background-color: #aca9a933;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.search-box:focus{
+    outline: none;
+}
+
+
+.tweet-bar{
+    box-shadow: 2px 2px 8px gray;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 40px;
+    width: 800px;
+    margin-left: 40px;
+}
+.profile-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.tweet-text{
+    display: inline-block;
+    border: none;
+    width: 85%;
+}
+.tweet-text:focus{
+    outline: none;
+}
+.tweet-btn{
+    border: none;
+    background-color: #1988f8;
+    padding: 6px 10px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+.review-box{
+    border: 2px rgb(207, 203  , 203) solid;
+    width: 300px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
