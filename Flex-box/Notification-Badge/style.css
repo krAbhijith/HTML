@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+p{
+    margin: 6px 8px;
+}
+.container{
+    width: 300px;
+    padding: 6px 10px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 1px rgba(83, 176, 238, 0.363);
+}
+.home, .notifications, .messages{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.badge{
+    background-color: royalblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1px 9px;
+    color: white;
+    border-radius: 10px;
+}

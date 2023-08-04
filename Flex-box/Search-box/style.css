@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+    background-color: rgba(80, 11, 80, 0.726);
+}
+.home{
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search-box{
+    border: none;
+    height: 26px;
+    border-radius: 18px;
+    flex: 1;
+    max-width: 500px;
+    padding-left: 12px;
+}
+.search-box:focus{
+    outline: none;
+}
+.btn-download{
+    border: 1px white solid;
+    background-color: transparent;
+    color: white;
+    padding: 6px 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
