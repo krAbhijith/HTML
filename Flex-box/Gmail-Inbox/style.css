@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family: Verdana;
+    font-size: 12px;
+}
+.container{
+    padding: 10px;
+    display: inline-block;
+    margin: 40px;
+    box-shadow: 0px 0px 10px rgb(218, 215, 215);
+}
+.heading{
+    font-size: 14px;
+}
+.message{
+    padding: 18px 6px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.message-desc{
+    padding: 0px 10px;
+}
+.message-head-div{
+    display: flex;
+    justify-content: space-between;
+}
+.off-color{
+    opacity: .8;
+    color: rgb(99, 98, 98);
+}
+.bold{
+    font-weight: bold;
+}
+.message-sub-head, .message-preview{
+    font-size: 11px;
+}
+.time{
+    font-size: 11px;
+}
+p{
+    margin: 2px;
+}
+
+
+
