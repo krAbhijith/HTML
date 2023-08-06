@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(90, 114, 185);
+}
+.container{
+    display: flex;
+    padding: 10px;
+}
+.profile-image{
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.tweet-body{
+    margin: 8px;
+    width: 300px;
+}
+.profile-name{
+    font-weight: bolder;
+}
+.tweet{
+    font-size: 13px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+.attachment{
+    margin-top: 12px;
+    display: flex;
+    font-size: 13px;
+    border-radius: 12px;
+    border: 1px solid rgb(235, 235, 235);
+}
+.thumbnail{
+    width: 120px;
+    margin-right: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(199, 199, 199, 0.589);
+}
+.attachment-container{
+    padding: 12px;
+}
+.off-color{
+    font-weight: normal;
+    font-size: 12px;
+    opacity: .9;
+    color: rgb(201, 201, 201);
+}
+.attachment-body{
+    margin-top: 8px;
+}

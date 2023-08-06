@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: verdana;
+    font-size: 14px;
+}
+body{
+    height: 3000px;
+}
+.container{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+.container, .profile{
+    display: flex;
+    padding: 8px 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-image{
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 8px;
+}
+.profile p{
+    font-weight: 600;
+}
+.buttons input{
+    border: none;
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 550;
+}
+.buttons .blue{
+    color: white;
+    background-color: rgba(85, 127, 255, 0.767);
+}
+iframe{
+    margin-top: 60px;
+    height: 2920px;
+    width: 100%;
+}
